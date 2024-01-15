@@ -3,10 +3,10 @@ def main():
     text = get_book_text(book_path)
     num_words = get_num_words(text)
     print("--- Begin report of books/frankenstein.txt ---")
-    print(f"{num_words} words found in the document")
+    print(f"{num_words} words found in the document\n")
     #print(num_of_letter(text))
     dict_to_list(num_of_letter(text))
-    print("--- End report ---")
+    print("\n--- End report ---")
 
 
 def get_num_words(text):
